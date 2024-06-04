@@ -1,48 +1,65 @@
 
 public class first_1 {
 
+	private static final String typedef = null;
+
 	public static void main(String[] args) {
 		//【問題1】変数について
 		
 		//int型の変数 num を宣言して、好きな数字を代入してください。
 		int num;
 		num = 20;
+		System.out.println(num);
 		
 		//String型の変数 name を宣言し、自分の名前を代入してください。
 		String name;
 		name = "nanami.ujihara";
+		System.out.println(name);
 		
 		//double型の定数 PI を宣言し、3.14を代入してください。
 		final double PI;
 		PI = 3.14;
-		
-		//上記を System.out.println() を使用して出力してください。
-		System.out.println("変数について");
+		System.out.println(PI);
+		System.out.println();
 		
 		//【問題2】型について
 		
 		//整数型の変数 myInt を宣言し、任意の整数で初期化してください。
 		int myInt;
 		myInt = 25;
+		System.out.println(myInt);
 		
 		//浮動小数点型の変数 myDouble を宣言し、myInt の値を利用して初期化してください。
 		double myDouble;
-		myDouble = 25;
+		myDouble = myInt;
+		System.out.println(myDouble);
 		
 		//文字型の変数 myChar を宣言し、好きなアルファベット1文字で初期化してください。
 		char myChar = 'N';
+		System.out.println(myChar);
 		
 		//真偽型の変数 myBoolean を宣言し、条件式を用いて初期化してください。
-		boolean myBoolean = false;
+		int age = 25;
+		boolean myBoolean;
+		if(age >= 20) {
+			myBoolean =true;
+		}else {
+			myBoolean =false;
+		}
+		System.out.println(myBoolean);
 		
 		//文字列型の変数 myString を宣言し、自分の名前で初期化してください。
 		String myString = "nanami.ujihara";
+		System.out.println(myString);
+		System.out.println();
 		
 		//【問題3】演算子について
 		
 		//任意の整数型の変数 a と b を宣言し、それぞれの値を代入、出力してください。
 		int a = 3;
 		int b = 5;
+		System.out.println(a);
+		System.out.println(b);
 		
 		//a と b の和を表す変数 sumResult を宣言し、和を計算して出力してください。
 		int sumResult= a+b;
