@@ -39,14 +39,15 @@ public class first_1 {
 		System.out.println(myChar);
 		
 		//真偽型の変数 myBoolean を宣言し、条件式を用いて初期化してください。
-		int age = 25;
 		boolean myBoolean;
-		if(age >= 20) {
-			myBoolean =true;
+		int age = 25;
+		myBoolean = (age == 25);
+		if(myBoolean) {
+			System.out.println(myBoolean);
 		}else {
-			myBoolean =false;
+			System.out.println(myBoolean);
 		}
-		System.out.println(myBoolean);
+		
 		
 		//文字列型の変数 myString を宣言し、自分の名前で初期化してください。
 		String myString = "nanami.ujihara";
